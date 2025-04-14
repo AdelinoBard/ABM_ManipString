@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "ABM_ManipString.Controllers.ManipulacaoStringController",
+    "Method": "Post",
+    "RelativePath": "api/manipulacao-string",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ManipulacaoStringRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

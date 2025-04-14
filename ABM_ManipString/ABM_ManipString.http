@@ -1,0 +1,6 @@
+@ABM_ManipString_HostAddress = http://localhost:5167
+
+GET {{ABM_ManipString_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
