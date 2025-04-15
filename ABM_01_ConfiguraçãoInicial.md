@@ -1,3 +1,32 @@
+## 🛠️ Consultar SDKs do .NET instalados na sua máquina
+
+### ✅ Comando para listar SDKs instalados:
+
+Abra o terminal (Prompt de Comando, PowerShell ou Terminal no Linux/macOS) e digite:
+
+```bash
+dotnet --list-sdks
+```
+
+Esse comando retorna uma lista dos SDKs instalados, com seus respectivos caminhos. Exemplo:
+
+```
+7.0.400 [C:\Program Files\dotnet\sdk]
+8.0.100 [C:\Program Files\dotnet\sdk]
+```
+
+### ❓ E se quiser listar os runtimes instalados?
+
+Use:
+
+```bash
+dotnet --list-runtimes
+```
+
+Isso mostra todos os runtimes instalados (por exemplo, ASP.NET Core, .NET Core, etc.).
+
+---
+
 ## 🛠️ Configuração Inicial
 
 Para criar a estrutura básica do projeto .NET 8.0, execute os seguintes comandos:
